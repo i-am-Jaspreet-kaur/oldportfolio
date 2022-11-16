@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css?ver=6.1">
     <title>Jaspreet Portfolio</title>
   </head>
   <body id="htmlBody">
@@ -17,9 +17,9 @@
           <div class="header-menu">
             <a href="#" class="icon" id="baricon" onclick="openNav()" > <i class="fa fa-bars"></i> </a>
             <ul class="main-menu side-menu" id="sideMenu">
-              <p class="close-menu" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></p>
+              <p class="close-menu" onclick="closeNav()"><img src="assets/images/closemenu.png"></p>
               <li class="main-menu-item"><a href="index.html">Home</a></li>
-              <li class="main-menu-item"><a href="index.html#mywork">Work</a></li>
+              <li class="main-menu-item"><a href="index.html#mywork" class="active">Work</a></li>
               <li class="main-menu-item"><a href="about.html">About</a></li> 
             </ul>
             <div class="mob-nav-bg" id="navBg"></div>
@@ -38,14 +38,14 @@
     <section class="work-images">
       <div class="container custom-c">
         <div class="imagesWrap">
-          <img src="assets/images/rekoyoscreen1.png">
-          <img src="assets/images/rekoyoscreen2.png">
+          <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/rekoyoscreen1.png"> <img src="assets/images/rekoyoscreen1.png"></a>
+          <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/rekoyoscreen2.png"> <img src="assets/images/rekoyoscreen2.png"></a>
         </div>
       </div>
     </section>
 
     <section class="work-content">
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
       <div class="colwrap"> 
       <div class="col-50">
 
@@ -80,7 +80,7 @@
     </section>
 
     <section>
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
         <h4 class="work-h4">Problem</h4>
         <div class="work-para">
           <p>Research says that retirement can result in anxiety and stress and can be boring. Retired do not have anyone to talk to as everyone is busy in their lives. They are skilled and have lots of experience which they would like to share with others, especially youngsters to give them the right direction as they have a lack of direction these days, but there is no such platform where both generations can easily connect. </p>
@@ -103,7 +103,7 @@
 
     <section>
       <div class="container fullsreenimg">
-        <img src="assets/images/userflow.png">
+        <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/userflow.png"><img src="assets/images/userflow.png"></a>
       </div>
     </section>
 
@@ -114,17 +114,24 @@
     </section>
 
     <section>
-      <div class="container custom-c">
-        <h4 class="work-h4">Project Overview</h4>
+      <div class="container custom-c mb-pad-0">
+        <h4 class="work-h4">UI Kit and Logo</h4>
         <div class="work-para">
-          <p>REKOYO is an android-based mobile application that connects young people with retired and skilled people. Users who seek guidance can get it by posting statuses, and chatting with other users. They can categorize their connections and refer them to others who need help.</p>
+          <p>We used medium electric blue as primary with Spanish orange as secondary color because these colors represent importance and confidence (blue) and give energy and cheer you up (orange). Another reason to use blue as the primary color is that it has good contrast with white color and the orange color is bright which we used for text that is clickable to catch the users’ attention.</p>
+
+<p>We used the geometric sans serif Montserrat typeface because of its good X-height and easy readability.</p>
+
+<p>I created the icons with round edges and used the buttons with icons keeping in mind that these can be easily recognizable by the users. The logo is created using the same color palette with a lighter shade of blue and a gradient, white background, and text with Montserrat font type and kept lowercase to make the logo simple, bright, and eye-cathcing.</p>
+
+<p>The logo of the application is created keeping in mind its main feature “Connection”, I created the connect icon first using a circle and three users representing small filled circles which as a whole represents the users connecting with each other as if they are joining their hands. So, the logo is a modification from that icon by removing three small circles and keeping it to a simple circle but broken into two halves so that it looks similar to both ‘O’ and the ring of ‘R’.
+</p>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="uikitsec">
       <div class="container fullsreenimg">
-        <img src="assets/images/uikit.png">
+        <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/uikit.png"><img src="assets/images/uikit.png"></a>
       </div>
     </section>
 
@@ -137,13 +144,13 @@
       </div>
     </section>
 
-    <section class="mockups-sec">
+    <section class="mockups-sec mb-reverse">
       <div class="container">
         <div class="colwrap">
           <div class="col-40">
             <div class="intro-imgs">
-              <img src="assets/images/posting1.png">
-              <img src="assets/images/posting2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/posting1.png"><img src="assets/images/posting1.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/posting2.png"><img src="assets/images/posting2.png"></a>
             </div>
           </div>
           <div class="col-60">
@@ -156,7 +163,7 @@
       </div>
     </section>
 
-    <section class="mockups-sec">
+    <section class="mockups-sec reverseCol">
       <div class="container">
         <div class="colwrap">          
           <div class="col-60">
@@ -168,21 +175,21 @@
 
           <div class="col-40">
             <div class="intro-imgs">
-              <img src="assets/images/connect1.png">
-              <img src="assets/images/connect2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/connect1.png"><img src="assets/images/connect1.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/connect2.png"><img src="assets/images/connect2.png"></a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mockups-sec">
+    <section class="mockups-sec mb-reverse">
       <div class="container">
         <div class="colwrap">
           <div class="col-40">
             <div class="intro-imgs">
-              <img src="assets/images/category1.png">
-              <img src="assets/images/category2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/category1.png"><img src="assets/images/category1.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/category2.png"><img src="assets/images/category2.png"></a>
             </div>
           </div>
           <div class="col-60">
@@ -195,7 +202,7 @@
       </div>
     </section>
 
-    <section class="mockups-sec">
+    <section class="mockups-sec reverseCol">
       <div class="container">
         <div class="colwrap">          
           <div class="col-60">
@@ -207,8 +214,8 @@
 
           <div class="col-40">
             <div class="intro-imgs">
-              <img src="assets/images/posting1.png">
-              <img src="assets/images/posting2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/refer1.png"><img src="assets/images/refer1.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/refer2.png"><img src="assets/images/refer2.png"></a>
             </div>
           </div>
         </div>
@@ -221,15 +228,15 @@
         <div class="colwrap">          
           <div class="col-50">
             <div class="intro-imgs">
-              <img src="assets/images/posting1.png">
-              <img src="assets/images/posting2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/9.png"><img src="assets/images/rekoyolast1.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/10.png"><img src="assets/images/rekoyolast2.png"></a>
             </div>
           </div>
 
           <div class="col-50">
             <div class="intro-imgs">
-              <img src="assets/images/posting1.png">
-              <img src="assets/images/posting2.png">
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/11.png"><img src="assets/images/rekoyolast3.png"></a>
+              <a target="_blank" class="cursorzoom" href="assets/images/original/rekoyo/mockups/12.png"><img src="assets/images/rekoyolast4.png"></a>
             </div>
           </div>
         </div>
@@ -237,13 +244,25 @@
     </section>
 
 
+    <section class="nxtprev">
+      <div class="container">
+        <div class="nextprevlinks">
+          <a href="tenants.html"><i class="fa-solid fa-chevron-left"></i> Prev </a>
+          <a href="florens.html">Next <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <a class="gototop" href="#navBar"><i class="fa-sharp fa-solid fa-circle-up"></i></a>
 
 
     <footer>
       <div class="footerdiv">
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/i-am-jaspreet-kaur"><i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
+
   </body>
 </html>

@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css?ver=6.1">
     <title>Jaspreet Portfolio</title>
   </head>
   <body id="htmlBody">
@@ -17,9 +17,9 @@
           <div class="header-menu">
             <a href="#" class="icon" id="baricon" onclick="openNav()" > <i class="fa fa-bars"></i> </a>
             <ul class="main-menu side-menu" id="sideMenu">
-              <p class="close-menu" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></p>
+              <p class="close-menu" onclick="closeNav()"><img src="assets/images/closemenu.png"></p>
               <li class="main-menu-item"><a href="index.html">Home</a></li>
-              <li class="main-menu-item"><a href="index.html#mywork">Work</a></li>
+              <li class="main-menu-item"><a href="index.html#mywork" class="active">Work</a></li>
               <li class="main-menu-item"><a href="about.html">About</a></li> 
             </ul>
             <div class="mob-nav-bg" id="navBg"></div>
@@ -46,7 +46,7 @@
     </section>
 
     <section class="work-content">
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
       <div class="colwrap"> 
       <div class="col-50">
 
@@ -84,7 +84,7 @@
 
    
     <section>
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
        
         <h4 class="work-h4">Problem</h4>
         <div class="work-para">
@@ -104,7 +104,7 @@
       </div>
     </section>
 
-    <section>
+    <section class="fitness-userflow">
       <div class="container fullsreenimg">
         <img src="assets/images/tenant-userflow.png">
       </div>
@@ -122,7 +122,7 @@
     </section>
 
     <section>
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
         <h4 class="work-h4">UI Kit and Logo</h4>
         <div class="work-para">
           <p>After creating the wireframes with the help of my team, I created theUI kit and the logo for the webite. The logo is basically the “C” letter of Commudum + “L” letter of Lease and the “Home” icon and I combined it in such a way that its outer line completes the circle. I used the Drak Cyan, sunray and Spicy Mix colors as gradient for the logo.</p>
@@ -133,14 +133,14 @@
 
     </section>
 
-    <section>
+    <section class="fitness-userflow">
       <div class="container fullsreenimg">
         <img src="assets/images/tenant-ui.png">
       </div>
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
         <h4 class="work-h4">Mockups</h4>
         <div class="work-para">
           <p>I created the mockups for the same wireframes for the graphics class after the UI kit and the logo were designed.</p>
@@ -162,7 +162,7 @@
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
          <h4 class="work-h4">Add Tenant</h4>
         <div class="work-para">
           <p>When the user click on the “Add Tenant: card, this page will show where they can add all the information of the tenants and then save it.</p>
@@ -179,7 +179,7 @@
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
          <h4 class="work-h4">All Tenants</h4>
         <div class="work-para">
           <p>Users will see the list of all tenants on tenants page, they can also check the list according to the floor number to shorten the list. They can also delete, export and edit the tenant’s information by clicking their name or multiple profiles by clicking the select button and choose their profiles.</p>
@@ -196,7 +196,7 @@
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
          <h4 class="work-h4">Payment</h4>
         <div class="work-para">
           <p>When the user click on the “Payment” card on the home page, this page will show where they can check the list of the tenants and their payment information based on who are late to pay the rent and who already paid on time.</p>
@@ -213,7 +213,7 @@
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
          <h4 class="work-h4">Contract</h4>
         <div class="work-para">
           <p>When the user click on the “Contract” card on the home page, this page will show where they can check the list of the tenants and their contract information based on whose contract is expired and whose is active with pdf attached.</p>
@@ -230,7 +230,7 @@
     </section>
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
          <h4 class="work-h4">Make Report</h4>
         <div class="work-para">
           <p>When the user click on the “Report”, this page will show where they can make the report for the tenants that includes payment, contract, room,etc and export it as  a pdf.</p>
@@ -249,12 +249,22 @@
   
 </div>
 
+<section class="nxtprev">
+      <div class="container">
+        <div class="nextprevlinks">
+          <a href="tires.html"><i class="fa-solid fa-chevron-left"></i> Prev </a>
+          <a href="rekoyo.html">Next <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <a class="gototop" href="#navBar"><i class="fa-sharp fa-solid fa-circle-up"></i></a>
 
     <footer>
       <div class="footerdiv">
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/i-am-jaspreet-kaur"><i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
   </body>
 </html>

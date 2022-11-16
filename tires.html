@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.6.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css?ver=6.1">
     <title>Jaspreet Portfolio</title>
   </head>
   <body id="htmlBody">
@@ -17,9 +17,9 @@
           <div class="header-menu">
             <a href="#" class="icon" id="baricon" onclick="openNav()" > <i class="fa fa-bars"></i> </a>
             <ul class="main-menu side-menu" id="sideMenu">
-              <p class="close-menu" onclick="closeNav()"><i class="fa fa-times" aria-hidden="true"></i></p>
+              <p class="close-menu" onclick="closeNav()"><img src="assets/images/closemenu.png"></p>
               <li class="main-menu-item"><a href="index.html">Home</a></li>
-              <li class="main-menu-item"><a href="index.html#mywork">Work</a></li>
+              <li class="main-menu-item"><a href="index.html#mywork" class="active">Work</a></li>
               <li class="main-menu-item"><a href="about.html">About</a></li> 
             </ul>
             <div class="mob-nav-bg" id="navBg"></div>
@@ -46,7 +46,7 @@
     </section>
    
     <section>
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
        
         <h4 class="work-h4">Project Overview</h4>
         <div class="work-para">
@@ -73,7 +73,7 @@
     </section>
 
     <section>
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
         <h4 class="work-h4">Mockups</h4>
         <div class="work-para">
           <p>I created the Mockups using the UI Kit that I created and also made some changes as per UX in order to align the pages and make it consistent. Below are the images of the Mockups along with the original images.</p>
@@ -102,7 +102,7 @@
 
 
     <section class="tenant-mockups"> 
-      <div class="container custom-c">
+      <div class="container custom-c mb-pad-0">
         <h4 class="work-h4">Summer Tires Page</h4>
         <div class="work-para">
           <p>For the Summer Tires under “Tires” Menu, I put the heading with the icon on the left and gave more spacing on the top and bottom. </p>
@@ -133,12 +133,23 @@
   
 </div>
 
+<section class="nxtprev">
+      <div class="container">
+        <div class="nextprevlinks">
+          <a href="college.html"><i class="fa-solid fa-chevron-left"></i> Prev </a>
+          <a href="tenants.html">Next <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <a class="gototop" href="#navBar"><i class="fa-sharp fa-solid fa-circle-up"></i></a>
+
 
     <footer>
       <div class="footerdiv">
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/i-am-jaspreet-kaur"><i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/scripts.js"></script>
   </body>
 </html>

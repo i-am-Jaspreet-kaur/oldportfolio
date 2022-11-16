@@ -37,19 +37,14 @@ window.addEventListener("resize", function() {
   }
 })
 
+$(document).ready(function(){
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100) {
+       $('.gototop').addClass('showbtn');
+    } else {
+       $('.gototop').removeClass('showbtn');
+    }
+});
+});
 
-function showForm() {
-    var showformvar = document.getElementById("submitFilmFormSec");
-    showformvar.classList.add("showform");
 
-    var bodyscrollon = document.getElementById("htmlBody");
-    bodyscrollon.classList.add("scrolloff");
-}
-
-function closeForm() {
-    var closeformvar = document.getElementById("submitFilmFormSec");
-    closeformvar.classList.remove("showform");
-
-    var bodyscrolloff = document.getElementById("htmlBody");
-    bodyscrolloff.classList.remove("scrolloff");
-}
