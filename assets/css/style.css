@@ -311,6 +311,9 @@ img {
 .work-content {
   padding-top: 85px;
 }
+.work-para p img {
+    margin-right: 10px;
+}
 .uiscreensec {
   padding: 70px 0;
 }
