@@ -116,12 +116,22 @@ img {
   -moz-transition: 0.3s all;
   padding: 5px 2px;
   border-bottom: 2px solid transparent;
+  
+}
+.navbar .navbar-parent .header-menu .main-menu .main-menu-item{
+  transition: transform .4s;
+}
+.navbar .navbar-parent .header-menu .main-menu .main-menu-item:hover{
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
 }
 .navbar .navbar-parent .header-menu .main-menu .main-menu-item a.active {
   border-bottom: 2px solid #020842;
 }
 .navbar .navbar-parent .header-menu .main-menu .main-menu-item a:hover {
   color: #96606b;
+  
 }
 
 .navbar.active {
@@ -161,6 +171,7 @@ img {
 }
 .herocontent {
   display: flex;
+  align-items: center;
 }
 .herocontent > div {
   width: 50%;
@@ -183,7 +194,7 @@ img {
   font-weight: 600;
 }
 .heroLeft p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 30px;
   color: #fff;
@@ -212,7 +223,17 @@ img {
   border-radius: 30px;
   padding: 50px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: transform .4s;
+
 }
+.single-work:hover{
+  transform: scale(1.04);
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+}
+
+
+
 .single-work h2 {
   font-size: 24px;
   font-weight: 700;
@@ -547,6 +568,13 @@ img {
 .submitBtn {
   text-align: right;
 }
+
+.submitBtn a:hover{
+  transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+}
+
 .submitBtn a {
   background: #334562;
   border-radius: 50px;
@@ -555,6 +583,7 @@ img {
   font-weight: 600;
   display: inline-block;
   color: #fff;
+  transition: transform .4s;
 }
 .contactFormSec .container {
   background: rgba(85, 122, 149, 15%);
